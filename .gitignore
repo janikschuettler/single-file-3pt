@@ -1,0 +1,13 @@
+.DS_Store
+# build artefacts
+spectral/example
+spectral/*.o
+*.dSYM/
+
+# generated data
+spectral/correlation.csv
+bd/correlation_bd_*.csv
+bd/*.log
+
+# Julia resolves this per machine
+bd/Manifest.toml

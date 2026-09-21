@@ -1,0 +1,6 @@
+name = "SFBD"
+
+# sfbd.jl and sfbd_utilities.jl need nothing beyond the standard library.
+# HDF5 is required only by accumulate.jl, which merges results across runs.
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
